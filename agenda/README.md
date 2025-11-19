@@ -18,7 +18,3 @@ Endpoints principais:
 - PUT  /api.php/events/{id}           => atualiza evento (requer admin_password)
 - DELETE /api.php/events/{id}         => deleta evento (requer admin_password)
 - POST /api.php/admin/change-password => altera senha do admin
-
-Observações de segurança:
-- Em produção, utilize HTTPS; considere trocar a autenticação por token JWT.
-- Proteja o endpoint de alteração de senha e aplique rate limiting.
